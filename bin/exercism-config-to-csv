@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+require('..')
+
+// Local Variables:
+// mode: javascript
+// End:

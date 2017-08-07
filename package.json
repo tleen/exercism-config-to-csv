@@ -1,6 +1,6 @@
 {
   "name": "exercism-config-to-csv",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Transform a Exercism track configuration JSON file into a CSV file",
   "main": "index.js",
   "scripts": {

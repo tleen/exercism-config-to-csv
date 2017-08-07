@@ -6,6 +6,9 @@
   "scripts": {
     "test": "node_modules/mocha/bin/mocha --ui bdd --reporter spec --require should test/index.js"
   },
+  "bin": {
+    "exercism-config-to-csv": "./bin/exercism-config-to-csv"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tleen/exercism-config-to-csv.git"
@@ -19,5 +22,10 @@
   "devDependencies": {
     "mocha": "3.5.0",
     "should": "11.2.1"
+  },
+  "dependencies": {
+    "commander": "2.11.0",
+    "node-fetch": "1.7.1",
+    "string": "3.3.3"
   }
 }
